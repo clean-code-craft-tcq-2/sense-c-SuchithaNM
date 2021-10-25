@@ -54,7 +54,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     s.min = numset[0];                         //TEST_CASE("reports average, minimum and maximum")
 
 
-    return s;   /* added Missing return Value*/
+    return s;   // added Missing return Value
 }
 
 
